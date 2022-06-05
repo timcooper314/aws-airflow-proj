@@ -13,5 +13,7 @@ airflow_stack = AirFlowStack(
     app,
     "airflow-proj",
     env=env,
+    subnet_ids=config["Subnets"],
+    security_group_id=config["SecurityGroup"],
 )
 app.synth()

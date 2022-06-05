@@ -28,7 +28,13 @@
     ],
     "StackParameters": {
       "Region": "ap-southeast-2",
-      "AccountID": "158795226448"
+      "AccountID": "158795226448",
+      "VPC": "vpc-b542bcd3",
+      "Subnets": [
+        "subnet-473e6e1f",
+        "subnet-3317b155"
+      ],
+      "SecurityGroup": "sg-cbdba488"
     }
   }
 }
